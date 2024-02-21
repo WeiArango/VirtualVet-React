@@ -1,0 +1,93 @@
+.account-formulario {
+    display: grid;
+    flex-wrap: wrap;
+    row-gap: 15px;  
+    align-items: center;
+    justify-content: center;
+} 
+
+.account-email,
+.account-name,
+.account-phone,
+.account-adress,
+.account-password,
+.account-certificate {
+    width: 800px;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;     
+    padding: 10px 32px 10px 40px;
+    border-radius: 5px;
+    border: 1px solid #4d4d4d;
+    outline: none;
+    color: #000;
+  }
+
+.input-container {
+    position: relative;
+  }
+  
+.email-icono,  
+.name-icono,
+.phone-icono,
+.adress-icono,
+.password-icono,
+.certificate-icono {
+    position: absolute;
+    top: 50%;
+    left: 35px; /* Puedes ajustar la posición horizontal según sea necesario */
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;    
+  }
+
+.show-password-icono {
+    position: absolute;
+    top: 50%;
+    right: 30px; /* Puedes ajustar la posición horizontal según sea necesario */
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+  }
+
+.boton-container { 
+    display: grid;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    flex-direction: column;    
+    padding: 25px;  
+    margin-top: -25px;  
+  }
+
+.create-boton {
+    width: 873px;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;     
+    padding: 10px 10px 10px 0;
+    border-radius: 5px;
+    border: 1px solid #4d4d4d;
+    background-color: #1978cc;    
+    color: #fff; 
+}
+
+.reset-boton {
+  width: 873px;
+  font-size: 16px;
+  font-family: Roboto, sans-serif;     
+  padding: 10px 10px 10px 0;
+  border-radius: 5px;
+  border: 1px solid #4d4d4d;
+  background-color: #333;    
+  color: #fff; 
+}
+
+.create-boton:hover {
+    background-color: #054985;
+}
+
+.reset-boton:hover {
+  background-color: #444;
+}
+
+  
+  
+ 

@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 1.2rem;
+  font-family: Manrope, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;  
+}
+
+p {
+  font-size: 0.7rem;
+}
+
+.CreateAccount {     
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 50px;
+}
+
+.logo-contenedor { 
+  display: flex;
+  flex-wrap: wrap;  
+  align-items: center;
+  justify-content: center;
+  text-align: center;   
+  margin-top: 50px; 
+}
+
+.logo {
+  width: 400px;
+}
+
